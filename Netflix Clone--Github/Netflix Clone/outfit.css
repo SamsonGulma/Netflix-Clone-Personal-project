@@ -1,0 +1,452 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#main {
+    background: url('Netflix sources/netflixBackGradient.png') no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    object-fit: contain;
+    width: 1349px;
+    height: 655px;
+
+}
+
+#netflixLogo {
+    width: 150px;
+    height: 85px;
+    background-color: transparent;
+    padding-left: 158px;
+    cursor: pointer;
+}
+
+#signin-btn {
+    height: 32.7px;
+    width: 75px;
+    border: none;
+    border-radius: 7%;
+    background-color: #e50914;
+    color: white;
+    float: right;
+    margin-top: 26px;
+    margin-right: 177.5px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+#signin-btn:hover {
+    background-color: #C11119;
+    transition: 250ms;
+}
+
+#centerelements {
+    color: white;
+    background-color: transparent;
+    align-items: center;
+    padding-top: 190px;
+}
+
+
+#add,
+#permonth,
+#rdytowch {
+    color: white;
+    background-color: transparent;
+}
+
+#add {
+    font-size: 47px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    word-spacing: -3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#permonth,
+#rdytowch {
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+#srchBox {
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: grey;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-left: 5px;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 400px;
+    height: 55px;
+    text-decoration: none;
+
+}
+
+#getstarted {
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: #e50914;
+    text-align: center;
+    width: 200px;
+    height: 55.5px;
+    cursor: pointer;
+}
+
+#getstarted:hover {
+    background-color: #C11119;
+    transition: 250ms;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(185, 170, 170);
+    opacity: 1;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(185, 170, 170);
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(185, 170, 170);
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+#floater {
+    border: none;
+    background-size: cover;
+    background-position: center center;
+    object-fit: contain;
+    background: linear-gradient(rgb(16, 26, 78), to rgb(128, 17, 47));
+    padding-left: 40%;
+}
+
+#floater h3 {
+    font-size: medium;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+}
+
+#floater a {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #447FC4;
+}
+
+#floater img {
+    height: 15px;
+    width: 15px;
+    padding-left: 8px;
+    background-color: #447FC4;
+}
+
+#enjoy-on-your-tv,
+#watch-everywhere,
+#create-profile-for-kids,
+#download,
+h4 {
+    font-size: 22px;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+}
+
+#enjoy-on-your-tv {
+    margin-top: 70px;
+    padding-bottom: 70px;
+    border-bottom: #232323;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+}
+
+#enjoy-text {
+    padding-top: 110px;
+    padding-left: 160px;
+}
+
+#enjoy-on-your-tv img {
+    object-fit: contain;
+    width: 550px;
+    height: 380px;
+    float: right;
+    padding-right: 140px;
+}
+
+#enjoy-on-your-tv::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#watch-everywhere {
+    margin-top: 70px;
+    padding-bottom: 70px;
+    border-bottom: #232323;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+}
+
+#watch-everywhere img {
+    object-fit: contain;
+    width: 550px;
+    height: 380px;
+    float: left;
+    padding-left: 140px;
+}
+
+#watch-everywhere::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#create-profile-for-kids {
+    padding-bottom: 70px;
+    margin-top: 70px;
+    border-bottom: #232323;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+}
+
+#kids-text {
+    padding-top: 50px;
+    padding-left: 130px;
+}
+
+#create-profile-for-kids img {
+    object-fit: contain;
+    width: 550px;
+    height: 350px;
+    float: right;
+    padding-right: 140px;
+}
+
+#create-profile-for-kids::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#download {
+    padding-bottom: 70px;
+    margin-top: 70px;
+    border-bottom: #232323;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+}
+
+#download img {
+    object-fit: contain;
+    width: 510px;
+    height: 350px;
+    padding-left: 150px;
+}
+
+#download-text {
+    float: right;
+    padding-top: 90px;
+    padding-right: 170px;
+}
+
+#download ::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#faqs {
+    margin-top: 70px;
+    padding-bottom: 70px;
+    border-bottom: #232323;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+    list-style: none;
+    cursor: pointer;
+}
+
+#faqs h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#faqs li {
+    font-size: x-large;
+    border: none;
+    color: white;
+    background-color: rgb(51, 50, 50);
+    width: 1050px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 7px;
+    padding-left: 25px;
+
+}
+
+#faqs li:hover {
+    background-color: #414141;
+    transition: 200ms;
+}
+
+#faqs p:hover {
+    background-color: #414141;
+    transition: 200ms;
+}
+
+
+#faqs li p {
+    float: right;
+    border: none;
+    color: white;
+    background-color: rgb(51, 50, 50);
+    margin-top: -27px;
+    margin-right: 20px;
+    font-size: 70px;
+    font-weight: 50;
+
+}
+
+#bottomcenterelements {
+    color: white;
+    background-color: transparent;
+    align-items: center;
+}
+
+#bottomrdytowch {
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+#bottomsrchBox {
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: grey;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-top: 15px;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 350px;
+    height: 55px;
+    text-decoration: none;
+
+}
+
+#bottomgetstarted {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: #e50914;
+    text-align: center;
+    width: 200px;
+    height: 55.5px;
+    cursor: pointer;
+}
+
+#footer {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 530;
+    padding-top: 68px;
+    padding-left: 85px;
+
+}
+
+#footer p {
+    padding-bottom: 20px;
+    padding-left: 70px;
+    color: #ADAAAD;
+
+}
+
+
+
+#footer li {
+    padding-top: 18px;
+    color: #ADAAAD;
+
+}
+
+#footer a {
+    color: #ADAAAD;
+}
+
+#first-row {
+    float: left;
+    padding-left: 70px;
+    margin-bottom: 70px;
+    color: #ADAAAD;
+
+}
+
+#second-row {
+    float: right;
+    padding-right: 200px;
+    margin-bottom: 70px;
+    color: #ADAAAD;
+
+}
+
+#third-row {
+    float: right;
+    padding-right: 400px;
+    margin-bottom: 70px;
+    color: #ADAAAD;
+
+}
+
+#bottom-btn {
+    margin-top: 45px;
+
+}
+
+#first-row button {
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border-style: solid;
+    border-width: thin;
+    border-color: #ADAAAD;
+    word-spacing: 10px;
+    border-radius: 5px;
+    height: 30px;
+    width: 130px;
+    background-color: #0F0F0F;
+    margin: 0;
+    padding-left: 0%;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#langdown:hover {
+    border-width: 2px;
+    border-color: white;
+    transition: 100ms;
+}
